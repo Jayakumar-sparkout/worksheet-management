@@ -1,0 +1,73 @@
+{
+  "user": [
+    {
+      "id": "91a0",
+      "name": "muthukumar",
+      "email": "muthu@gmail.com",
+      "password": "muthukumar",
+      "confirmPassword": "muthukumar",
+      "address": "sdfghjk",
+      "mobile": "1234567899",
+      "projects": [
+        {
+          "projectName": "giftbottle",
+          "projectDescription": "wallet to wallet transaction",
+          "projectHours": "3",
+          "projectStatus": "inprogress"
+        }
+      ]
+    },
+    {
+      "id": "b8ac",
+      "name": "jayakumar",
+      "email": "jayakumar0018@gmail.com",
+      "password": "jaya2003",
+      "confirmPassword": "jaya2003",
+      "address": "north sreet rajakapatti madurai",
+      "mobile": "9973669211",
+      "projects": [
+        {
+          "projectName": "giftbottle",
+          "projectDescription": "wallet to wallet transaction",
+          "projectHours": "5",
+          "projectStatus": "inprogress"
+        },
+        {
+          "projectName": "aoc",
+          "projectDescription": "sdhghgggggggggggggggggggggggggggggggggggggg",
+          "projectHours": "2",
+          "projectStatus": "inprogress"
+        },
+        {
+          "projectName": "giftbottle",
+          "projectDescription": "Wallet to Wallet transaction completed.",
+          "projectHours": "7",
+          "projectStatus": "complete"
+        }
+      ]
+    },
+    {
+      "id": "d494",
+      "name": "jayakumarv",
+      "email": "kumar@gmail.com",
+      "password": "kumar2003",
+      "confirmPassword": "kumar2003",
+      "address": "North street rajakkalpatti madurai ",
+      "mobile": "8936027323",
+      "projects": [
+        {
+          "projectName": "giftbottle",
+          "projectDescription": "jaahhajhakjlajuqyaga",
+          "projectHours": "3",
+          "projectStatus": "inprogress"
+        },
+        {
+          "projectName": "giftbottle",
+          "projectDescription": "wallet to wallet transaction",
+          "projectHours": "3",
+          "projectStatus": "yet to start"
+        }
+      ]
+    }
+  ]
+}
