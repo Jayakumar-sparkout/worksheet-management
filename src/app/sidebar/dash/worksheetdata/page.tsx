@@ -397,7 +397,7 @@ console.log(loginEmail)
                     <Button
                       type="submit"
                       disabled={
-                        !formData.date || !formData.todate || !formData.project || !formData.status
+                        !date || !todate || !formData.project || !formData.status
                       }
                       className="w-full md:w-1/4 cursor-pointer mt-6"
                     >
