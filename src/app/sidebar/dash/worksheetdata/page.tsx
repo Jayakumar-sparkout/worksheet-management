@@ -165,6 +165,7 @@ export default function Page() {
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({})
   const [rowSelection, setRowSelection] = useState({})
+  const [loginEmail,setLoginEmail]=useState<string>('')
    const [tableData, setTableData] = useState<Payment[]>([]) 
   const [formData, setFormData] = useState({
     date: "",
@@ -214,9 +215,11 @@ export default function Page() {
 
   //fetch data
 
-
- let  loginEmail = localStorage.getItem('userEmail')
-
+useEffect(()=>{
+setLoginEmail(localStorage.getItem('userEmail')|| '')
+console.log(loginEmail)
+},[])
+  
 console.log(loginEmail)
 
    const handleProductData = async () => {
