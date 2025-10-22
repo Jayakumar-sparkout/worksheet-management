@@ -50,15 +50,12 @@ export function NavUser({
   }
 
   const [loginName, setLoginName] = useState("")
-  const [loginEmail, setLoginEmail] = useState<string>("")
+  const [loginEmail, setLoginEmail] = useState("")
 
   useEffect(() => {
-    const name = localStorage.getItem('userName')
-    setLoginName(name)
-    const email = localStorage.getItem('userEmail')
-    setLoginEmail(email)
-
-  })
+    setLoginName(localStorage.getItem('userName')||'')
+    setLoginEmail(localStorage.getItem('userEmail')||'')
+  },[])
 
   return (
     <SidebarMenu>
